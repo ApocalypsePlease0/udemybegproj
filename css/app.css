@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    font-weight: 400;
+    /*it can be worded=normal, bold, etc. OR in numbers=100,200,400(normal),700(bold), 900, etc.*/
+    text-decoration: #6868ee9a wavy underline;
+    letter-spacing: 15px;
+}
+
+p {
+    font-weight: normal;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+}
