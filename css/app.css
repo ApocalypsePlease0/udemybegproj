@@ -4,11 +4,14 @@ h1 {
     /*it can be worded=normal, bold, etc. OR in numbers=100,200,400(normal),700(bold), 900, etc.*/
     text-decoration: #6868ee9a wavy underline;
     letter-spacing: 15px;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
     font-weight: normal;
     line-height: 2;
+    font-family: Segoe UI, sans-serif;
 }
 
 a {
