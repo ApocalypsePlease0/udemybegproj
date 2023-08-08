@@ -3,3 +3,26 @@ div {
     height: 200px;
     background-color: #dd8175;
 }
+
+#one {
+    background-color: rgba(198, 142, 224, 0.986);
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#two {
+    background-color: aquamarine;
+    border-color: #9e7e57;
+    border-left-color: #8f9e57;
+    border-width: 3px;
+    border-left-width: 8px;
+    border-style: dashed;
+}
+
+#three {
+    background-color: blanchedalmond;
+    border: 4px dotted black;
+    border-left-style: solid;
+    border-radius: 5%;
+}
