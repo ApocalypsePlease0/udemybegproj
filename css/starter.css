@@ -10,9 +10,34 @@ button {
     background-color: #ffc8dd;
 }
 
+.post button:hover {
+    background-color: darkred;
+    color: lightblue;
+}
+
+.post button:active {
+    background-color: aliceblue;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #cddfb5;
+}
+
 h1,
 h2 {
     color: #be95c4;
+}
+
+h2::first-letter {
+    font-size: 60px;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: #ff006e;
 }
 
 #signup {
@@ -24,6 +49,10 @@ span {
     color: #ffc8dd;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .tag {
     background-color: #c45668;
     color: #bde0fe;
@@ -32,6 +61,8 @@ span {
 
 .post a {
     color: #ffc8dd;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 footer a {
@@ -54,9 +85,9 @@ input[type="password"] {
     color: greenyellow;
 }
 
-section[class="post"] {
+/* section[class="post"] {
     background-color: purple;
-}
+} */
 
 a[href*="google"] {
     color: blue;
