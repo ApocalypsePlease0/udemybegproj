@@ -10,10 +10,6 @@ button {
     background-color: #ffc8dd;
 }
 
-.post button:hover {
-    background-color: darkred;
-    color: lightblue;
-}
 
 .post button:active {
     background-color: aliceblue;
@@ -91,4 +87,13 @@ input[type="password"] {
 
 a[href*="google"] {
     color: blue;
+}
+
+.post button:hover {
+    background-color: darkred;
+    color: lightblue;
+}
+
+button:hover {
+    background-color: olive;
 }
